@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+html {-webkit-font-smoothing:antialiased;font-size:62.5%;}
+body { text-align:center;font-family:"Microsoft YaHei",Arial,Tahoma,sans-serif;-webkit-user-select:none; -webkit-text-size-adjust:none; background:#fef8ef;}
+* { margin:0; padding:0;list-style:none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+i, em{ font-style:normal; font-weight:normal; }
+input::-webkit-input-placeholder{color:#999;font-size: 1.8rem;}
+/*img{width:100%;vertical-align:top;}
+*/input,textarea,select,button{-webkit-appearance:none;border:0;outline:none;}
+input:focus{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;}
+
+/*按钮样式及点击时的效果*/
+.btn{display:block !important;position:relative;overflow:hidden;}
+
+
+/*杂项*/
+.clear-fix{clear:both;}
+.none{display:none !important;}
+.hide{visibility:hidden !important;}
+
+/*flex布局*/
+html,body{height:100%;}
+.flex{display:-webkit-box;-webkit-box-orient:vertical;height:100%;}
+.flex .phone_content{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;overflow:auto;-webkit-overflow-scrolling:touch; position:relative;}

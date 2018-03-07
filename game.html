@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+        <meta name= "format-detection" content= "telephone=no" />
+        <link href="css/default.css" rel="stylesheet" type="text/css">
+        <link href="css/bank_style.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-2.1.0.min.js"></script>
+
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/hkbk.js"></script>
+    </head>
+    <body>
+        <div class="container flex">
+            <div class="phone_content bg_red">
+               <!--  logo -->
+                <div class="logo_top">
+                    <div class="bg_top"></div>
+                </div>
+                <div class="logo_gap">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <!-- 游戏页面 -->
+                <div class='game bg'>
+                    <div class="count_down">
+                	    <div>
+                		    <span>倒計時 <span class="time" id="pokerTime"></span><span>秒</span></span>
+                	    </div>
+                        <span>獲取積分:<span class="score" id="pokerScore"></span></span>
+                    </div>
+                    <div class="red_group">
+                        <ul>
+                            <li id="tile_1">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_2">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_3">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_4">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li id="tile_5">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_6">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_7">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_8">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li id="tile_9">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_10">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_11">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_12">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li id="tile_13">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_14">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_15">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                            <li id="tile_16">
+                                <p class="red_pack front">
+                                </p>
+                                <p class="red_pack back">
+                                	<img src="" class="icon">
+                                </p>
+                                <p class='integral'><span>+</span><span class="get">1000</span></p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="bottom">
+                        <p>點撃利是進行配對，每成功配對一封相同圖案嘅利是，即可獲得1,000簽賬積分!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       	<!-- 游戏规则弹窗-->
+       	<div class="zzc game_rule">
+            <div class="pop_wrap">
+                <div class="game_pop">
+                   <p>遊戲玩法</p>
+                   <p>於30秒內每成功配對兩封相同圖案嘅利是，即可獲得1,000簽賬積分！</p>
+                   <p>配對得愈多，積分就愈多！</p>
+                   <p>限時內完成所有配對更可獲額外HK$188簽賬回贈大利是添！</p>
+                   <div class="game_btn">
+                		<button>開始遊戲</button>
+            		</div>
+                   <span class="beginGame"></span>
+                </div>
+        	</div>
+    	</div>
+
+    	<!-- 倒计时弹窗-->
+       	<div class="zzc count_state hide" id="countState">
+            <img src="images/count3.png" class="num"/>
+    	</div>
+
+    	<!-- 游戏失败弹窗-->
+       	<div class="zzc game_fail hide" id="gameFail">
+            <div class="pop_wrap">
+                <div class="fail_pop">
+                    <p>很遺憾</p>
+                    <p>您參與本次遊戲失敗</p>
+                    <p>請繼續留意我哋微信官號嘅其他活動啦！</p>
+                    <div class="game_btn">
+                        <a href="share_page.html">叫埋親戚朋友一起攞</a>
+                    </div>
+                    <a href="share_page.html" class="cancel"></a>
+                </div>
+        	</div>
+    	</div>
+
+
+        <!-- 成功奖品弹窗 -->
+        <div class="zzc prize_game hide" id="prizeGame">
+            <div class="pop_wrap">
+                <div class="prize_pop">
+                    <p>恭喜您!</p>
+                    <p>成功獲取<span class='total' id="total"></span>簽賬積分</p>
+                    <p>積分獎賞將於推廣期結束後2個月內自動存
+                    入您嘅中銀信用卡主卡賬戶內, 詳情請參閱
+                    《「賀年綁定贏HK$188」<span>活動條款及細則</span>》</p>
+                    <p>獎賞參考編號: <span>0001</span></p>
+                    <p>請記低以上參考編號，作日後獎賞查詢用途。</p>
+                    <p>按下鍵叫埋親戚朋友一齊玩仲可以額外拎到1,000簽賬積分!</p>
+                    <div class="game_btn">
+                        <a href="share_page.html">叫埋親戚朋友一起攞</a>
+                    </div>
+                   	<a href="share_page.html" class="cancel"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 成功配对八对弹窗 -->
+        <div class="zzc matched_game hide" id="machedGame">
+            <div class="pop_wrap">
+                <div class="matched_pop">
+                   <p>恭喜您!</p>
+                    <p>成功獲取8,000簽賬積分及額外HK$188簽賬回贈大利是</p>
+                    <p>積分獎賞將於推廣期結束後2個月內自動存
+                    入您嘅中銀信用卡主卡賬戶內, 詳情請參閱
+                    《「賀年綁定贏HK$188」<span>活動條款及細則</span>》</p>
+                    <p>獎賞參考編號: <span>0002</span></p>
+                    <p>請記低以上參考編號，作日後獎賞查詢用途。</p>
+                    <p>按下鍵叫埋親戚朋友一齊玩仲可以額外拎到1,000簽賬積分!</p>
+                    <div class="game_btn">
+                        <a href="share_page.html">叫埋親戚朋友一起攞</a>
+                    </div>
+                    <a href="share_page.html" class="cancel"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
